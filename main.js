@@ -6,5 +6,4 @@ let posicionQuien = Math.floor(Math.random() * 4);  // returns a random integer 
 let posicionAccion = Math.floor(Math.random() * 6);
 let posicionQue = Math.floor(Math.random() * 4);
 let posicionCuando = Math.floor(Math.random() * 4);
-console.log (quien[posicionQuien]+" "+accion[posicionAccion]+" "+que[posicionQue]+" "+cuando[posicionCuando]);
-
+let myExcuse = (quien[posicionQuien]+" "+accion[posicionAccion]+" "+que[posicionQue]+" "+cuando[posicionCuando]);
