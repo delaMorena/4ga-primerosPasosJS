@@ -7,21 +7,37 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
 		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 	<script type="text/javascript" src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bungee+Shade&family=Montserrat&family=Open+Sans&family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 	<title>Document</title>
 </head>
 
 <body>
 
-	<div class="jumbotron jumbotron-fluid">
-		<div class="container">
-            <img src="https://w7.pngwing.com/pngs/761/405/png-transparent-wile-e-coyote-and-the-road-runner-looney-tunes-acme-corporation-coyote-mammal-carnivoran-dog-like-mammal.q" class="img-fluid rounded float-right" alt="Responsive image">
-			<h1 class="display-4">ACME's Excuse Generator</h1>
-			<p class="lead">if you need an excuse press down ;)</p>
-			<button type="button" class="btn btn-primary btn-lg">Give me!</button>
-		</div>
+	<div class="jumbotron jumbotron-fluid mt-5 mx-5">
+		<div class="-fluid row mx-5">
+            <div class="col-8">
+			<h1 class="display-4">Generador de excusas ACME</h1>
+            <p class="lead mt-5">Si usted necesita ayuda para salir de un apuro, presione el botón</p>
+            </div>
+                <div class="col-4">
+                <img src="https://i.imgur.com/lLAnNsg.jpg" class="img-fluid border border-warning rounded-pill" alt="Responsive image">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 offset-md-4 mt-3">
+			    <button type="button" onclick= "myFunction()" id= "My excuse" class="btn btn-dark btn-lg">Presione aquíq</button>
+            </div>
+        </div>
+    </div>
+<script>
+function myFunction() {
+  alert(document.getElementById("My excuse").innerHTML);
+}
+</script>
 
-	</div>
+	
 
 
 

@@ -7,3 +7,6 @@ let posicionAccion = Math.floor(Math.random() * 6);
 let posicionQue = Math.floor(Math.random() * 4);
 let posicionCuando = Math.floor(Math.random() * 4);
 let myExcuse = (quien[posicionQuien]+" "+accion[posicionAccion]+" "+que[posicionQue]+" "+cuando[posicionCuando]);
+window.onload = function() {
+    let myexcuse = "My excuse";
+}
